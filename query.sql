@@ -1,0 +1,1 @@
+select distinct u.* from users u join object o on (u.object_id=o.id);
